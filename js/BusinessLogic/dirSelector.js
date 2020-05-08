@@ -12,6 +12,11 @@ const Direction_Selector = {
             this.forward_direction = false;
         }
 
+        else
+        {
+            this.forward_direction = true;
+        }
+
         return this.forward_direction;
     }
 }
